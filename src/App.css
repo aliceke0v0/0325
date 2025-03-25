@@ -1,0 +1,120 @@
+/* 讓整個頁面內容居中 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 定義容器外框 */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* 設定表單區域的樣式 */
+.login-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* 表單內輸入欄位樣式 */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* 登入按鈕的樣式 */
+button {
+  width: 100%;
+  padding: 8px; /* 按鈕小一點 */
+  background-color: #2f647c;
+  color: white;
+  font-size: 18px; /* 增加字體大小 */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* 在登入按鈕上添加間距 */
+}
+
+button:hover {
+  background-color: #2f647c;
+}
+
+/* 錯誤訊息 */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px; /* 錯誤訊息與其他元素有間隙 */
+}
+
+/* 顯示用戶資訊 */
+.user-info {
+  margin-top: 20px;
+  background-color: #e7f7e7;
+  padding: 10px;
+  border-radius: 4px;
+  color: green;
+  margin-bottom: 10px; /* 用戶資訊與列表有間隙 */
+}
+
+/* 用戶列表 */
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 編輯表單 */
+.edit-form {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form button {
+  background-color: #28a745;
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 18px;
+  margin-bottom: 10px; /* 編輯和更新按鈕之間有間隙 */
+}
+
+.edit-form button:hover {
+  background-color: #218838;
+}

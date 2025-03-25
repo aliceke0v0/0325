@@ -1,0 +1,35 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 導覽列樣式 */
+nav {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* 主頁面內容，確保距離頂部有空間 */
+.App {
+  padding: 20px;
+  margin-top: 60px; /* 給主頁面內容一些空間，避免被navbar遮住 */
+}
+
+/* 增加一些對齊和間距 */
+form {
+  margin-top: 20px;
+}
